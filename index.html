@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Jagdish's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">JAGDISH</span>
+                <div>
+                    I am a passionate 
+                    <br>
+                    <span id="element"></span>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="second">
+            <span class="text-gray">
+                What I have done so far.
+            </span>
+            <h1>Work Experiences</h1>
+            <div class="box">
+                <section class="experience">
+                    <div class="timeline">
+                      <div class="timeline-line"></div>
+                  
+                      <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                          <h3>Multimedia Cordinator</h3>
+                          <p>SW&D 2024-2025</p>
+                        </div>
+                      </div>
+                  
+                      <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                          <h3>Social Media and Content Cordinator</h3>
+                          <p>C-Cube 2024-2025</p>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                              <h3>3D Artist Cordinator</h3>
+                              <p>Game-Dev 2024-2025</p>
+                            </div>
+                      </div>
+                    </div>
+                  </section>
+                  </div>
+                  
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.', 'Graphic Designer.','3D-Artist.','Coder.'],
+          typeSpeed: 40,
+          backSpeed: 40,
+          loop: true
+        });
+      </script>
+      <script src="script.js"></script>
+</body>
+</html>
