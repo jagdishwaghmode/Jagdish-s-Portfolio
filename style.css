@@ -264,65 +264,217 @@
   }
   
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     .first {
-      flex-direction: column;
-      text-align: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
     }
-  
+
     .first > div {
-      width: 80%;
+        width: 90%;
     }
-  
+
+    .rightSectionAbout {
+        font-size: 1.1rem;
+        padding: 0 20px;
+    }
+
+    .skills-container {
+        gap: 1rem;
+    }
+    
+    .skill {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+
     .timeline {
-      padding-left: 20px;
+        padding-left: 20px;
     }
-  
+
     .timeline-dot {
-      left: 13px;
+        left: 13px;
     }
-  
+
     .timeline-line {
-      left: 18px;
+        left: 18px;
     }
-  
+
     .timeline-content {
-      margin-left: 40px;
-      padding: 12px;
-    }
-  
-    .timeline-content h3 {
-      font-size: 1.1rem;
-    }
-  
-    .timeline-content p {
-      font-size: 0.95rem;
+        margin-left: 40px;
+        padding: 12px;
     }
   }
   
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
+    nav {
+        height: auto;
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin: 5px;
+    }
+
+    .left {
+        font-size: 1.5rem;
+    }
+
+    .firstAbout {
+        padding: 20px 10px;
+    }
+
+    .leftSectionAbout {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .left-skills, .right-skills {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.8rem;
+        opacity: 1;
+        transform: none;
+        max-height: none;
+        overflow-y: visible;
+    }
+
+    .image-container {
+        order: 1;
+    }
+
+    .left-skills {
+        order: 2;
+    }
+
+    .right-skills {
+        order: 3;
+    }
+
+    .skill {
+        font-size: 0.85rem;
+        padding: 0.3rem 0.7rem;
+    }
+
+    #img2 {
+        max-width: 300px;
+        height: 300px;
+    }
+
+    .links {
+        gap: 2rem;
+        margin-left: 0;
+    }
+
+    .timeline-item {
+        margin: 40px 0;
+    }
+
     .timeline-content {
-      margin-left: 35px;
-      padding: 10px;
+        margin-left: 35px;
     }
-  
+
+    .timeline-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .timeline-content p {
+        font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    nav ul li {
+        margin: 3px;
+    }
+
+    .left {
+        font-size: 1.2rem;
+    }
+
+    a {
+        width: 80px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+
+    .firstAbout {
+        padding: 15px 5px;
+    }
+
+    .skills-container {
+        gap: 1rem;
+    }
+
+    .left-skills, .right-skills {
+        gap: 0.5rem;
+    }
+
+    .skill {
+        font-size: 0.75rem;
+        padding: 0.2rem 0.5rem;
+    }
+
+    #img2 {
+        max-width: 250px;
+        height: 250px;
+    }
+
+    .links {
+        gap: 1.5rem;
+    }
+
+    .leetcode {
+        width: 40px;
+        height: 40px;
+    }
+
+    #leetCode {
+        width: 35px;
+    }
+
+    #linkedIn {
+        width: 40px;
+    }
+
+    #gitHub {
+        width: 50px;
+    }
+
+    .timeline-content {
+        margin-left: 30px;
+        padding: 8px;
+    }
+
     .timeline-dot {
-      width: 12px;
-      height: 12px;
-      left: 12px;
-      top: 25px;
+        width: 12px;
+        height: 12px;
+        left: 12px;
+        top: 25px;
     }
-  
+
     .timeline-line {
-      left: 15px;
+        left: 15px;
     }
-  
-    .section-title {
-      font-size: 1.5rem;
+
+    .timeline-content h3 {
+        font-size: 1rem;
     }
-  
-    .leftSection {
-      font-size: 2rem;
+
+    .timeline-content p {
+        font-size: 0.8rem;
     }
   }
 
