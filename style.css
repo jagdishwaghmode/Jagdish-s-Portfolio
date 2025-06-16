@@ -99,7 +99,7 @@
     gap: 3rem;
     margin-top: 20px;
     width: 100%;
-    margin-right: 30px;
+    margin-right: 40px;
   }
   .leetcode a{
     background-color: white;
@@ -634,6 +634,7 @@
         gap: 1.5rem;
     }
   }
+
   @keyframes transitionIn {
       from{
         opacity: 0;
@@ -647,6 +648,7 @@
   main{
      animation: transitionIn 1s ease;
   }
+
 
   .container{
     display: flex;
@@ -672,7 +674,7 @@
     transform: scale(1.03,1.03);
   }
   
-  #img3{
+  .img3{
     width: 500px;
     height: 300px;
     margin: 20px;
@@ -690,7 +692,7 @@
   .gitLink img{
     width: 40px;
   }
-  .gitLink{
+  .gitLink a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -704,7 +706,20 @@
   .gitLink a:hover{
     box-shadow: 0px 0px 10px 10px purple;
     transform: scale(1.05,1.05);
-    border-radius: 100px;
+  }
+
+  @media(max-width: 480px){
+    .pro{
+      flex-direction: column;
+      gap: 1rem;
+      width: 350px;
+      height: 700px;
+      padding: 10px;
+    }
+    .img3{
+      width: 300px;
+      height: 200px;
+    }
   }
 
   .contact-container{
@@ -719,8 +734,8 @@
     gap: 10px;
     flex-direction: column;
     background-color  :rgba(255, 255, 255, 0.1);
-    width: 50vw;
-    height: 60vh;
+    width: 600px;
+    height: 450px;
     justify-content: center;
     align-items: center;
     border-radius: 25px;
@@ -736,7 +751,7 @@
   .contact-title hr{
     background-color: white;
     border: none;
-    width: 180px;
+    width: 200px;
     height: 3px;
   }
   .contactInputs{
@@ -763,4 +778,15 @@
     border-radius: 15px;
     font-size: 15px;
     border: solid purple;
+  }
+
+  
+  @media(max-width: 480px){
+    .input{
+      flex-direction: column;
+      gap: 1rem;
+      width: 350px;
+      height: 600px;
+      padding: 10px;
+    }
   }
